@@ -1,11 +1,11 @@
 <?php
 
 	// Mail settings
-	$to      = "web-master72@yandex.ru";
-	$subject = "Vortex";
+	$to      = "biuro@aforma.com.pl";
+	$subject = "Aforma";
 
 	// You can put here your email
-	$header = "From: noreply@vortex.com\r\n";
+	$header = "From: noreply@aforma.com.pl\r\n";
 	$header.= "MIME-Version: 1.0\r\n";
 	$header.= "Content-Type: text/plain; charset=utf-8\r\n";
 	$header.= "X-Priority: 1\r\n";
