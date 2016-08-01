@@ -1,5 +1,4 @@
 (function($){
-
 	"use strict";
 
 	/* ---------------------------------------------- /*
@@ -129,12 +128,14 @@
 		/* ---------------------------------------------- */
 
 		$('#toggle-menu').on('click', function() {
+			console.log('aaaa');
 			showMenu();
 			$('body').addClass('aux-navigation-active');
 			return false;
 		});
 
 		$('#overlay-menu-hide').on('click', function() {
+			console.log('bbbb');
 			hideMenu();
 			$('body').removeClass('aux-navigation-active');
 			return false;
@@ -143,6 +144,7 @@
 		$(window).keydown(function(e) {
 			if (overlayMenu.hasClass('active')) {
 				if (e.which === 27) {
+					console.log('cccc');
 					hideMenu();
 				}
 			}
@@ -153,7 +155,7 @@
 				duration: 150,
 				easing: 'easeInOutQuart'
 			});
-
+			console.log('dddd');
 			overlayMenu.addClass('active');
 		}
 

@@ -2,7 +2,7 @@
 
 	// Mail settings
 	$to      = "biuro@aforma.com.pl";
-	$subject = "Aforma";
+	$subject = "Wiadomosc ze strony";
 
 	// You can put here your email
 	$header = "From: noreply@aforma.com.pl\r\n";
